@@ -3,6 +3,7 @@
 import {Link as ScrollLink} from "react-scroll";
 import { RiArrowRightUpLine } from "react-icons/ri";
 import Logo from './Logo';
+import NavMobile from "./NavMobile";
 
 const links = [
   {
@@ -52,7 +53,11 @@ const Header = () => {
               <RiArrowRightUpLine className="text-white text-xl group-hover:rotate-45 transition-all duration-200"/>
             </div>
           </button>
+          
         </nav>
+        <div className="xl:hidden">
+          <NavMobile />
+        </div>
       </div>
     </div>
   </header>
