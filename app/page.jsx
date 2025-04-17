@@ -19,8 +19,9 @@ const Home = () => {
       <Header/>
       <Hero/>
       <About/>
-      <Stats/>
+      
       <Services/>
+      <Stats/>
       <Projects/>
       <Work/>
       <Testimonials/>
