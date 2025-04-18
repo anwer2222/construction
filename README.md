@@ -35,8 +35,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-npm i framer-motion react-countup react-icons swiper
-npm install react-scroll
+npm i framer-motion react-countup react-icons swiper react-scroll
 
 npx shadcn@latest init
 npx shadcn@latest add tabs input sheet select
