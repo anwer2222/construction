@@ -13,8 +13,7 @@ const Content = () => {
            <div className="w-full xl:max-w-[380px] xl:pr-[70px] xl:border-r xl:border-border/40 h-[640px]">
              <h4 className="text-[26px] font-primary font-bold mb-6">Contact Us</h4>
              <p className="mb-9">
-              Lorem ipsum dolor site amet construction descrtioption alet. Hence property aliquo=iudation error defined quia voluptue obit temporibus quoes repellate corporis?
-
+              Lorem ipsum dolor site amet construction descrtioption alet. Hence property aliquo iudation error defined quia voluptue obit temporibus quoes repellate corporis?
              </p>
              {/* content items */}
              <div className="flex flex-col gap-[40px] mb-16">
@@ -58,7 +57,7 @@ const Content = () => {
            <div className="flex-1">
             <h2 className="h2 mb-3">Request A Quote</h2>
             <p className="mb-9">
-              Lorem ipsum dolor site amet construction descrtioption alet. Hence property aliquo=iudation error defined quia voluptue obit temporibus quoes repellate corporis?
+              Lorem ipsum dolor site amet construction descrtioption alet. Hence property aliquo iudation error defined quia voluptue obit temporibus quoes repellate corporis?
             </p>
             <Form />
            </div>
