@@ -24,7 +24,6 @@ const Home = () => {
       <Work/>
       <Testimonials/>
       <Faq/>
-      <Projects/>
       <Content/>
       <Footer/>
 

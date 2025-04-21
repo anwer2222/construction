@@ -38,4 +38,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 npm i framer-motion react-countup react-icons react-scroll swiper@11.2.4
 
 npx shadcn@latest init
-npx shadcn@latest add tabs input sheet select
+npx shadcn@latest add tabs input sheet select textarea
