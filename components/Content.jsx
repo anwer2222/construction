@@ -1,12 +1,20 @@
+"use client"
+
 import { RiChat1Line, RiMapPin2Line, RiSmartphoneLine } from "react-icons/ri"
 import Socials from "./Socials"
 import Form from "./Form"
-
+import { motion } from "framer-motion";
+import { fadeIn } from "@/public/assets/variants";
 
 const Content = () => {
   return (
     <section className="pt-16 xl:pt-32" id="contact">
-      <div className="container mx-auto">
+      <motion.div
+        variants={fadeIn("up", 0.1)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{once: false, amount: 0.2}}
+        className="container mx-auto">
         <div className="w-full xl:h-[730px] shadow-custom p-4 xl:p-8 xl:px-[90px] xl:py-[36px] border-t-4 border-accent">
           <div className="flex flex-col xl:flex-row h-full gap-[40px] xl:gap-[90px]">
            {/* info */}
@@ -63,7 +71,7 @@ const Content = () => {
            </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   )
 }
